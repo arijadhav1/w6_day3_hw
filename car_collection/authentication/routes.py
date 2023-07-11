@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, request, redirect,url_for,flash
+from flask import Blueprint, render_template, request, redirect, url_for, flash
 from car_collection.models import User,db
 from car_collection.forms import UserLoginForm
 
