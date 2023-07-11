@@ -19,10 +19,10 @@
 
         <div>
             <ul id="horizontal-list">
-                <a href="">
+                <a href="{{ url_for('site.home') }}">
                     <li>My Car Collection</li>
                 </a>
-                <a href="">
+                <a href="{{ url_for('site.home') }}">
                     <li>Home</li>
                 </a>
                 <a href="">
@@ -31,10 +31,10 @@
                 <a href="">
                     <li>Log Out</li>
                 </a>
-                <a href="">
+                <a href="{{ url_for('auth.signin') }}">
                     <li>Sign In</li>
                 </a>
-                <a href="">
+                <a href="{{ url_for('auth.signup') }}">
                     <li>Sign Up Free</li>
                 </a>
             </ul>
